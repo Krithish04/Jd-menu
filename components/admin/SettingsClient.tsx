@@ -82,7 +82,7 @@ export default function SettingsClient({ restaurant }: Props) {
   ];
 
   return (
-    <div className="p-8 max-w-2xl">
+    <div className="p-4 sm:p-6 lg:p-8 max-w-2xl">
       {toast && (
         <div
           className={`fixed top-4 right-4 z-50 px-4 py-2 rounded shadow-lg text-sm ${

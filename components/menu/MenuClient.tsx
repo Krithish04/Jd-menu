@@ -79,11 +79,10 @@ export default function MenuClient({
 
   return (
     <div className="min-h-screen bg-[#2A060A] flex items-center justify-center sm:p-4 select-none">
-      {/* Centered Mobile Column - Max 430px, Fixed-Height 100dvh */}
+      {/* Handheld Menu View - Default phone on mobile, beautifully framed on tablet & desktop */}
       <div
-        className="relative w-full max-w-[430px] overflow-hidden flex flex-col bg-brand-maroon-binder shadow-2xl rounded-none sm:rounded-2xl"
+        className="relative w-full max-w-[430px] sm:max-w-[460px] overflow-hidden flex flex-col bg-brand-maroon-binder shadow-2xl rounded-none sm:rounded-2xl h-[100dvh] sm:h-[min(100dvh,880px)] sm:max-h-[880px]"
         style={{
-          height: "100dvh",
           boxShadow:
             "0 25px 50px -12px rgba(0, 0, 0, 0.7), inset 0 0 10px rgba(0,0,0,0.5)",
         }}

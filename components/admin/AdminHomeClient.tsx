@@ -158,7 +158,7 @@ export default function AdminHomeClient({
   };
 
   return (
-    <div className="p-8 max-w-6xl space-y-8">
+    <div className="p-4 sm:p-6 lg:p-8 max-w-6xl space-y-6 sm:space-y-8">
       {/* Toast */}
       {toast && (
         <div className="fixed bottom-4 right-4 z-50 px-4 py-2 bg-brand-green text-white text-xs font-semibold rounded-lg shadow-xl">
@@ -167,7 +167,7 @@ export default function AdminHomeClient({
       )}
 
       {/* Page Header Ribbon */}
-      <div className="flex items-center justify-between border-b border-brand-green/20 pb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-brand-green/20 pb-4">
         <div>
           <h1 className="font-serif text-2xl font-bold text-brand-green">
             Dashboard Overview
@@ -179,7 +179,7 @@ export default function AdminHomeClient({
         </div>
 
         {/* Quick Actions Header */}
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-2 sm:gap-3">
           <Link
             href="/admin/menu"
             className="flex items-center gap-1.5 bg-brand-green text-white px-3.5 py-2 rounded-md text-xs font-medium hover:bg-brand-green-hover transition-colors shadow-xs"

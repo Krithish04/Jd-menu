@@ -225,7 +225,7 @@ export default function ItemTable({
   return (
     <div className="flex flex-col h-full bg-white">
       {/* Category / Search Sub-header */}
-      <div className="bg-brand-green/10 border-b border-brand-green/20 px-6 py-2.5 flex items-center justify-between gap-4">
+      <div className="bg-brand-green/10 border-b border-brand-green/20 px-3 sm:px-6 py-2.5 flex items-center justify-between gap-2 sm:gap-4 flex-wrap">
         {isSearching ? (
           <div className="flex items-center gap-3 flex-wrap">
             <div className="flex items-center gap-1.5 text-brand-green font-bold text-xs">
@@ -347,7 +347,8 @@ export default function ItemTable({
             )}
           </div>
         ) : (
-          <table className="w-full text-xs border-collapse">
+          <div className="overflow-x-auto min-w-full">
+            <table className="w-full min-w-[700px] text-xs border-collapse">
             <thead className="sticky top-0 bg-white border-b-2 border-brand-cream-dark shadow-2xs z-10">
               <tr>
                 <th className="text-left px-5 py-2.5 font-bold text-brand-muted uppercase">
@@ -640,6 +641,7 @@ export default function ItemTable({
               ))}
             </tbody>
           </table>
+          </div>
         )}
       </div>
     </div>

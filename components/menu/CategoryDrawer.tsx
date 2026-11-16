@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import { X, ChevronDown, ChevronRight, Phone, MapPin, ShieldCheck } from "lucide-react";
+import { X, ChevronDown, ChevronRight, Phone, MapPin, ShieldCheck, Lock } from "lucide-react";
 import { Category, Restaurant } from "@/types/menu";
 
 type Props = {
@@ -219,6 +219,18 @@ export default function CategoryDrawer({
               <Phone size={12} />
               <span>94291 65549</span>
             </a>
+          </div>
+
+          {/* Discreet Staff / Admin Link */}
+          <div className="pt-2 text-center border-t border-brand-green/10">
+            <Link
+              href="/admin/login"
+              onClick={onClose}
+              className="text-[10px] text-brand-muted/80 hover:text-brand-green transition-colors inline-flex items-center gap-1 font-medium py-1 px-2"
+            >
+              <Lock size={10} />
+              <span>Staff & Admin Portal</span>
+            </Link>
           </div>
         </div>
       </div>

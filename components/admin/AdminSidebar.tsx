@@ -26,6 +26,11 @@ export default function AdminSidebar() {
   const router = useRouter();
   const [mobileOpen, setMobileOpen] = useState(false);
 
+  // Do not render admin sidebar or mobile header on the login page
+  if (pathname === "/admin/login") {
+    return null;
+  }
+
   const handleLogout = async () => {
     await fetch("/api/auth/logout", { method: "POST" });
     router.push("/admin/login");

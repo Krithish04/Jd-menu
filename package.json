@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "vercel-build": "prisma generate && next build",
     "postinstall": "prisma generate",
     "start": "next start",
@@ -17,6 +17,7 @@
     "seed": "tsx prisma/seed.ts"
   },
   "dependencies": {
+    "@prisma/client": "^5.22.0",
     "@upstash/redis": "^1.41.0",
     "bcryptjs": "^3.0.3",
     "jose": "^5.9.3",
@@ -28,7 +29,6 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@prisma/client": "^5.22.0",
     "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20.0.0",
     "@types/qrcode": "^1.5.5",

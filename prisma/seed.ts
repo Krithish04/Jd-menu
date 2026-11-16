@@ -125,7 +125,7 @@ async function main() {
             nameEn: item.name,
             nameGu: item.name_gu || null,
             description: item.description || null,
-            descriptionGu: null,
+            descriptionGu: item.description_gu || null,
             price: Math.round(Number(item.price) || 0),
             sort: itemIndex++,
             badge,

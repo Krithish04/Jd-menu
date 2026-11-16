@@ -29,13 +29,41 @@
       "group": "Starters & Sides",
       "group_gu": "સ્ટાર્ટર્સ અને સાઇડ્સ",
       "items": [
-        { "name": "Paneer Tikka - Tandoori (8 Pcs)", "price": 380 },
-        { "name": "Veg. Spring Rolls", "price": 350 },
-        { "name": "Veg. Manchurian (Dry/Gravy)", "price": 130 },
-        { "name": "Veg. 65", "price": 350 },
-        { "name": "Veg. Lollypop", "price": 350 },
-        { "name": "Crispy Veg", "price": 350 },
-        { "name": "Chilly Paneer (Dry/Gravy)", "price": 260 }
+        {
+          "name": "Paneer Tikka - Tandoori (8 Pcs)",
+          "price": 380,
+          "name_gu": "પનીર ટીક્કા - તંદૂરી (૮ નંગ)"
+        },
+        {
+          "name": "Veg. Spring Rolls",
+          "price": 350,
+          "name_gu": "વેજ. સ્પ્રિંગ રોલ્સ"
+        },
+        {
+          "name": "Veg. Manchurian (Dry/Gravy)",
+          "price": 130,
+          "name_gu": "વેજ. મંચુરિયન (ડ્રાય/ગ્રેવી)"
+        },
+        {
+          "name": "Veg. 65",
+          "price": 350,
+          "name_gu": "વેજ. ૬૫"
+        },
+        {
+          "name": "Veg. Lollypop",
+          "price": 350,
+          "name_gu": "વેજ. લોલીપોપ"
+        },
+        {
+          "name": "Crispy Veg",
+          "price": 350,
+          "name_gu": "ક્રિસ્પી વેજ"
+        },
+        {
+          "name": "Chilly Paneer (Dry/Gravy)",
+          "price": 260,
+          "name_gu": "ચીલી પનીર (ડ્રાય/ગ્રેવી)"
+        }
       ]
     },
     {
@@ -47,10 +75,26 @@
       "group": "Starters & Sides",
       "group_gu": "સ્ટાર્ટર્સ અને સાઇડ્સ",
       "items": [
-        { "name": "Cream of Tomato", "price": 100 },
-        { "name": "Sweet Corn Veg", "price": 120 },
-        { "name": "Veg. Manchow", "price": 130 },
-        { "name": "Hot & Sour", "price": 120 }
+        {
+          "name": "Cream of Tomato",
+          "price": 100,
+          "name_gu": "ક્રીમ ઓફ ટોમેટો"
+        },
+        {
+          "name": "Sweet Corn Veg",
+          "price": 120,
+          "name_gu": "સ્વીટ કોર્ન વેજ"
+        },
+        {
+          "name": "Veg. Manchow",
+          "price": 130,
+          "name_gu": "વેજ. મંચાવ"
+        },
+        {
+          "name": "Hot & Sour",
+          "price": 120,
+          "name_gu": "હોટ એન્ડ સોર"
+        }
       ]
     },
     {
@@ -62,14 +106,46 @@
       "group": "Starters & Sides",
       "group_gu": "સ્ટાર્ટર્સ અને સાઇડ્સ",
       "items": [
-        { "name": "Green Salad", "price": 70 },
-        { "name": "Tomato Salad", "price": 60 },
-        { "name": "Pineapple Raita", "price": 120 },
-        { "name": "Veg. Raita", "price": 90 },
-        { "name": "Boondi Raita", "price": 100 },
-        { "name": "Masala Papad", "price": 60 },
-        { "name": "Fry Papad", "price": 30 },
-        { "name": "Roasted Papad", "price": 15 }
+        {
+          "name": "Green Salad",
+          "price": 70,
+          "name_gu": "ગ્રીન સલાડ"
+        },
+        {
+          "name": "Tomato Salad",
+          "price": 60,
+          "name_gu": "ટોમેટો સલાડ"
+        },
+        {
+          "name": "Pineapple Raita",
+          "price": 120,
+          "name_gu": "પાઈનેપલ રાયતું"
+        },
+        {
+          "name": "Veg. Raita",
+          "price": 90,
+          "name_gu": "વેજ. રાયતું"
+        },
+        {
+          "name": "Boondi Raita",
+          "price": 100,
+          "name_gu": "બુંદી રાયતું"
+        },
+        {
+          "name": "Masala Papad",
+          "price": 60,
+          "name_gu": "મસાલા પાપડ"
+        },
+        {
+          "name": "Fry Papad",
+          "price": 30,
+          "name_gu": "ફ્રાય પાપડ"
+        },
+        {
+          "name": "Roasted Papad",
+          "price": 15,
+          "name_gu": "શેકેલો પાપડ"
+        }
       ]
     },
     {
@@ -81,16 +157,56 @@
       "group": "Chinese & Fast Food",
       "group_gu": "ચાઈનીઝ અને ફાસ્ટ ફૂડ",
       "items": [
-        { "name": "American Chopsey", "price": 190 },
-        { "name": "Veg Chowmein", "price": 190 },
-        { "name": "Veg. Hakka Noodles", "price": 160 },
-        { "name": "Veg. Fried Rice", "price": 160 },
-        { "name": "Schezwan Fried Rice", "price": 180 },
-        { "name": "Singapuri Fried Rice", "price": 180 },
-        { "name": "Chinese Bhel", "price": 170 },
-        { "name": "Mushroom Fried Rice", "price": 220 },
-        { "name": "Manchurian Rice", "price": 180 },
-        { "name": "Mushroom Noodles Rice", "price": 230 }
+        {
+          "name": "American Chopsey",
+          "price": 190,
+          "name_gu": "અમેરિકન ચોપસી"
+        },
+        {
+          "name": "Veg Chowmein",
+          "price": 190,
+          "name_gu": "વેજ ચાઉમીન"
+        },
+        {
+          "name": "Veg. Hakka Noodles",
+          "price": 160,
+          "name_gu": "વેજ. હક્કા નુડલ્સ"
+        },
+        {
+          "name": "Veg. Fried Rice",
+          "price": 160,
+          "name_gu": "વેજ. ફ્રાઈડ રાઈસ"
+        },
+        {
+          "name": "Schezwan Fried Rice",
+          "price": 180,
+          "name_gu": "શેઝવાન ફ્રાઈડ રાઈસ"
+        },
+        {
+          "name": "Singapuri Fried Rice",
+          "price": 180,
+          "name_gu": "સિંગાપુરી ફ્રાઈડ રાઈસ"
+        },
+        {
+          "name": "Chinese Bhel",
+          "price": 170,
+          "name_gu": "ચાઈનીઝ ભેળ"
+        },
+        {
+          "name": "Mushroom Fried Rice",
+          "price": 220,
+          "name_gu": "મશરૂમ ફ્રાઈડ રાઈસ"
+        },
+        {
+          "name": "Manchurian Rice",
+          "price": 180,
+          "name_gu": "મંચુરિયન રાઈસ"
+        },
+        {
+          "name": "Mushroom Noodles Rice",
+          "price": 230,
+          "name_gu": "મશરૂમ નુડલ્સ રાઈસ"
+        }
       ]
     },
     {
@@ -102,48 +218,216 @@
       "group": "Main Course",
       "group_gu": "મેઈન કોર્સ",
       "items": [
-        { "name": "Special of the Day", "price": 280 },
-        { "name": "J.D. Pasanda", "price": 280 },
-        { "name": "Cheese Butter Masala", "price": 310 },
-        { "name": "Kaju Kofta", "price": 300 },
-        { "name": "Kaju Curry", "price": 260 },
-        { "name": "Kaju Paneer", "price": 270 },
-        { "name": "Khoya Kaju Sweet", "price": 270 },
-        { "name": "Kaju Masala", "price": 270 },
-        { "name": "Kaju Angoori", "price": 290 },
-        { "name": "Paneer Toofani", "price": 270 },
-        { "name": "Paneer Tawa", "price": 320 },
-        { "name": "Paneer Lasania", "price": 290 },
-        { "name": "Paneer Tikka Masala", "price": 260 },
-        { "name": "Paneer Handi", "price": 260 },
-        { "name": "Paneer Bhurji", "price": 260 },
-        { "name": "Palak Paneer", "price": 220 },
-        { "name": "Paneer Shahi Kurma", "price": 270 },
-        { "name": "Paneer Hydrabadi", "price": 280 },
-        { "name": "Paneer Mutter", "price": 220 },
-        { "name": "Paneer Butter Masala", "price": 260 },
-        { "name": "Mushroom Baby Corn Masala", "price": 320 },
-        { "name": "Veg. Handi", "price": 220 },
-        { "name": "Veg. Makhanwala", "price": 220 },
-        { "name": "Veg. Kadhai", "price": 220 },
-        { "name": "Veg. Kolhapuri", "price": 220 },
-        { "name": "Veg. Kheema", "price": 230 },
-        { "name": "Veg. Navaratna Kurma", "price": 240 },
-        { "name": "Veg. Jaipuri", "price": 220 },
-        { "name": "Channa Masala", "price": 160 },
-        { "name": "Methi Mutter Malai", "price": 240 },
-        { "name": "Dal Handi", "price": 180 },
-        { "name": "Dal Tadkawali", "price": 160 },
-        { "name": "Dal Fry", "price": 120 },
-        { "name": "Mix Veg. Curry", "price": 190 },
-        { "name": "Sev Tomato", "price": 180 },
-        { "name": "Aloo Jeera", "price": 180 },
-        { "name": "Aloo Mutter", "price": 180 },
-        { "name": "Plain Palak", "price": 170 },
-        { "name": "Aloo Palak", "price": 170 },
-        { "name": "Malai Kofta", "price": 280 },
-        { "name": "Nargis Kofta", "price": 280 },
-        { "name": "Veg. Kofta", "price": 280 }
+        {
+          "name": "Special of the Day",
+          "price": 280,
+          "name_gu": "સ્પેશિયલ ઓફ ધ ડે"
+        },
+        {
+          "name": "J.D. Pasanda",
+          "price": 280,
+          "name_gu": "જે.ડી. પસંદા"
+        },
+        {
+          "name": "Cheese Butter Masala",
+          "price": 310,
+          "name_gu": "ચીઝ બટર મસાલા"
+        },
+        {
+          "name": "Kaju Kofta",
+          "price": 300,
+          "name_gu": "કાજુ કોફ્તા"
+        },
+        {
+          "name": "Kaju Curry",
+          "price": 260,
+          "name_gu": "કાજુ કરી"
+        },
+        {
+          "name": "Kaju Paneer",
+          "price": 270,
+          "name_gu": "કાજુ પનીર"
+        },
+        {
+          "name": "Khoya Kaju Sweet",
+          "price": 270,
+          "name_gu": "ખોયા કાજુ (મીઠું)"
+        },
+        {
+          "name": "Kaju Masala",
+          "price": 270,
+          "name_gu": "કાજુ મસાલા"
+        },
+        {
+          "name": "Kaju Angoori",
+          "price": 290,
+          "name_gu": "કાજુ અંગૂરી"
+        },
+        {
+          "name": "Paneer Toofani",
+          "price": 270,
+          "name_gu": "પનીર તૂફાની"
+        },
+        {
+          "name": "Paneer Tawa",
+          "price": 320,
+          "name_gu": "પનીર તવા"
+        },
+        {
+          "name": "Paneer Lasania",
+          "price": 290,
+          "name_gu": "પનીર લસણીયા"
+        },
+        {
+          "name": "Paneer Tikka Masala",
+          "price": 260,
+          "name_gu": "પનીર ટીક્કા મસાલા"
+        },
+        {
+          "name": "Paneer Handi",
+          "price": 260,
+          "name_gu": "પનીર હાંડી"
+        },
+        {
+          "name": "Paneer Bhurji",
+          "price": 260,
+          "name_gu": "પનીર ભુરજી"
+        },
+        {
+          "name": "Palak Paneer",
+          "price": 220,
+          "name_gu": "પાલક પનીર"
+        },
+        {
+          "name": "Paneer Shahi Kurma",
+          "price": 270,
+          "name_gu": "પનીર શાહી કુરમા"
+        },
+        {
+          "name": "Paneer Hydrabadi",
+          "price": 280,
+          "name_gu": "પનીર હૈદરાબાદી"
+        },
+        {
+          "name": "Paneer Mutter",
+          "price": 220,
+          "name_gu": "પનીર મટર"
+        },
+        {
+          "name": "Paneer Butter Masala",
+          "price": 260,
+          "name_gu": "પનીર બટર મસાલા"
+        },
+        {
+          "name": "Mushroom Baby Corn Masala",
+          "price": 320,
+          "name_gu": "મશરૂમ બેબી કોર્ન મસાલા"
+        },
+        {
+          "name": "Veg. Handi",
+          "price": 220,
+          "name_gu": "વેજ. હાંડી"
+        },
+        {
+          "name": "Veg. Makhanwala",
+          "price": 220,
+          "name_gu": "વેજ. માખણવાલા"
+        },
+        {
+          "name": "Veg. Kadhai",
+          "price": 220,
+          "name_gu": "વેજ. કઢાઈ"
+        },
+        {
+          "name": "Veg. Kolhapuri",
+          "price": 220,
+          "name_gu": "વેજ. કોલ્હાપુરી"
+        },
+        {
+          "name": "Veg. Kheema",
+          "price": 230,
+          "name_gu": "વેજ. ખીમા"
+        },
+        {
+          "name": "Veg. Navaratna Kurma",
+          "price": 240,
+          "name_gu": "વેજ. નવરત્ન કુરમા"
+        },
+        {
+          "name": "Veg. Jaipuri",
+          "price": 220,
+          "name_gu": "વેજ. જયપુરી"
+        },
+        {
+          "name": "Channa Masala",
+          "price": 160,
+          "name_gu": "ચણા મસાલા"
+        },
+        {
+          "name": "Methi Mutter Malai",
+          "price": 240,
+          "name_gu": "મેથી મટર મલાઈ"
+        },
+        {
+          "name": "Dal Handi",
+          "price": 180,
+          "name_gu": "દાલ હાંડી"
+        },
+        {
+          "name": "Dal Tadkawali",
+          "price": 160,
+          "name_gu": "દાલ તડકાવાળી"
+        },
+        {
+          "name": "Dal Fry",
+          "price": 120,
+          "name_gu": "દાલ ફ્રાય"
+        },
+        {
+          "name": "Mix Veg. Curry",
+          "price": 190,
+          "name_gu": "મિક્સ વેજ. કરી"
+        },
+        {
+          "name": "Sev Tomato",
+          "price": 180,
+          "name_gu": "સેવ ટામેટા"
+        },
+        {
+          "name": "Aloo Jeera",
+          "price": 180,
+          "name_gu": "આલું જીરા"
+        },
+        {
+          "name": "Aloo Mutter",
+          "price": 180,
+          "name_gu": "આલું મટર"
+        },
+        {
+          "name": "Plain Palak",
+          "price": 170,
+          "name_gu": "પ્લેન પાલક"
+        },
+        {
+          "name": "Aloo Palak",
+          "price": 170,
+          "name_gu": "આલું પાલક"
+        },
+        {
+          "name": "Malai Kofta",
+          "price": 280,
+          "name_gu": "મલાઈ કોફ્તા"
+        },
+        {
+          "name": "Nargis Kofta",
+          "price": 280,
+          "name_gu": "નરગિસ કોફ્તા"
+        },
+        {
+          "name": "Veg. Kofta",
+          "price": 280,
+          "name_gu": "વેજ. કોફ્તા"
+        }
       ]
     },
     {
@@ -155,16 +439,56 @@
       "group": "Main Course",
       "group_gu": "મેઈન કોર્સ",
       "items": [
-        { "name": "Cheese Kofta", "price": 350 },
-        { "name": "Cheese Angori", "price": 350 },
-        { "name": "Veg. Tawa", "price": 310 },
-        { "name": "Veg. Patiyala", "price": 270 },
-        { "name": "Paneer Jaipuri", "price": 300 },
-        { "name": "Paneer Balty", "price": 300 },
-        { "name": "Paneer Patiyala", "price": 320 },
-        { "name": "Paneer Capsicum Bhurji", "price": 300 },
-        { "name": "Kaju Angara", "price": 310 },
-        { "name": "Kaju Tikka Masala", "price": 310 }
+        {
+          "name": "Cheese Kofta",
+          "price": 350,
+          "name_gu": "ચીઝ કોફ્તા"
+        },
+        {
+          "name": "Cheese Angori",
+          "price": 350,
+          "name_gu": "ચીઝ અંગૂરી"
+        },
+        {
+          "name": "Veg. Tawa",
+          "price": 310,
+          "name_gu": "વેજ. તવા"
+        },
+        {
+          "name": "Veg. Patiyala",
+          "price": 270,
+          "name_gu": "વેજ. પટિયાલા"
+        },
+        {
+          "name": "Paneer Jaipuri",
+          "price": 300,
+          "name_gu": "પનીર જયપુરી"
+        },
+        {
+          "name": "Paneer Balty",
+          "price": 300,
+          "name_gu": "પનીર બાલ્ટી"
+        },
+        {
+          "name": "Paneer Patiyala",
+          "price": 320,
+          "name_gu": "પનીર પટિયાલા"
+        },
+        {
+          "name": "Paneer Capsicum Bhurji",
+          "price": 300,
+          "name_gu": "પનીર કેપ્સીકમ ભુરજી"
+        },
+        {
+          "name": "Kaju Angara",
+          "price": 310,
+          "name_gu": "કાજુ અંગારા"
+        },
+        {
+          "name": "Kaju Tikka Masala",
+          "price": 310,
+          "name_gu": "કાજુ ટીક્કા મસાલા"
+        }
       ]
     },
     {
@@ -177,18 +501,66 @@
       "group_gu": "મેઈન કોર્સ",
       "note": "Extra butter Rs. 5/-",
       "items": [
-        { "name": "Chapati", "price": 10 },
-        { "name": "Roti", "price": 25 },
-        { "name": "Naan", "price": 50 },
-        { "name": "Parotha", "price": 50 },
-        { "name": "Kulcha", "price": 50 },
-        { "name": "Stuffed Parotha / Aloo Parotha", "price": 140 },
-        { "name": "Stuffed Kulcha", "price": 140 },
-        { "name": "Stuffed Naan", "price": 140 },
-        { "name": "Garlic Naan", "price": 150 },
-        { "name": "Kashmiri Naan", "price": 200 },
-        { "name": "Special Naan", "price": 200 },
-        { "name": "Cheese Naan", "price": 200 }
+        {
+          "name": "Chapati",
+          "price": 10,
+          "name_gu": "ચપાતી (રોટલી)"
+        },
+        {
+          "name": "Roti",
+          "price": 25,
+          "name_gu": "તંદૂરી રોટી"
+        },
+        {
+          "name": "Naan",
+          "price": 50,
+          "name_gu": "નાન"
+        },
+        {
+          "name": "Parotha",
+          "price": 50,
+          "name_gu": "પરોઠા"
+        },
+        {
+          "name": "Kulcha",
+          "price": 50,
+          "name_gu": "કુલચા"
+        },
+        {
+          "name": "Stuffed Parotha / Aloo Parotha",
+          "price": 140,
+          "name_gu": "સ્ટફ્ડ પરોઠા / આલું પરોઠા"
+        },
+        {
+          "name": "Stuffed Kulcha",
+          "price": 140,
+          "name_gu": "સ્ટફ્ડ કુલચા"
+        },
+        {
+          "name": "Stuffed Naan",
+          "price": 140,
+          "name_gu": "સ્ટફ્ડ નાન"
+        },
+        {
+          "name": "Garlic Naan",
+          "price": 150,
+          "name_gu": "ગાર્લિક નાન"
+        },
+        {
+          "name": "Kashmiri Naan",
+          "price": 200,
+          "name_gu": "કાશ્મીરી નાન"
+        },
+        {
+          "name": "Special Naan",
+          "price": 200,
+          "name_gu": "સ્પેશિયલ નાન"
+        },
+        {
+          "name": "Cheese Naan",
+          "price": 200,
+          "name_gu": "ચીઝ નાન"
+        }
       ]
     },
     {
@@ -200,17 +572,61 @@
       "group": "Main Course",
       "group_gu": "મેઈન કોર્સ",
       "items": [
-        { "name": "Dum Biryani", "price": 230 },
-        { "name": "Veg. Biryani", "price": 165 },
-        { "name": "Hydrabadi Biryani", "price": 190 },
-        { "name": "Veg. Pulav", "price": 170 },
-        { "name": "Paneer Pulav", "price": 210 },
-        { "name": "Kashmiri Pulav", "price": 230 },
-        { "name": "Jeera Rice", "price": 100 },
-        { "name": "Steam Rice", "price": 80 },
-        { "name": "Dal Khichdi", "price": 160 },
-        { "name": "Masala Khichdi", "price": 180 },
-        { "name": "Palak Khichdi", "price": 180 }
+        {
+          "name": "Dum Biryani",
+          "price": 230,
+          "name_gu": "દમ બિરયાની"
+        },
+        {
+          "name": "Veg. Biryani",
+          "price": 165,
+          "name_gu": "વેજ. બિરયાની"
+        },
+        {
+          "name": "Hydrabadi Biryani",
+          "price": 190,
+          "name_gu": "હૈદરાબાદી બિરયાની"
+        },
+        {
+          "name": "Veg. Pulav",
+          "price": 170,
+          "name_gu": "વેજ. પુલાવ"
+        },
+        {
+          "name": "Paneer Pulav",
+          "price": 210,
+          "name_gu": "પનીર પુલાવ"
+        },
+        {
+          "name": "Kashmiri Pulav",
+          "price": 230,
+          "name_gu": "કાશ્મીરી પુલાવ"
+        },
+        {
+          "name": "Jeera Rice",
+          "price": 100,
+          "name_gu": "જીરા રાઈસ"
+        },
+        {
+          "name": "Steam Rice",
+          "price": 80,
+          "name_gu": "સ્ટીમ રાઈસ"
+        },
+        {
+          "name": "Dal Khichdi",
+          "price": 160,
+          "name_gu": "દાલ ખીચડી"
+        },
+        {
+          "name": "Masala Khichdi",
+          "price": 180,
+          "name_gu": "મસાલા ખીચડી"
+        },
+        {
+          "name": "Palak Khichdi",
+          "price": 180,
+          "name_gu": "પાલક ખીચડી"
+        }
       ]
     },
     {
@@ -222,22 +638,86 @@
       "group": "South Indian",
       "group_gu": "સાઉથ ઈન્ડિયન",
       "items": [
-        { "name": "Masala Dosa", "price": 110 },
-        { "name": "Sada Dosa", "price": 50 },
-        { "name": "Rava Special Dosa", "price": 200 },
-        { "name": "Rava Masala Dosa", "price": 140 },
-        { "name": "Rava Sada Dosa", "price": 120 },
-        { "name": "Mysore Masala Dosa", "price": 140 },
-        { "name": "Paper Masala Dosa", "price": 240 },
-        { "name": "Rava Onion Masala", "price": 160 },
-        { "name": "Uttapam Plain", "price": 70 },
-        { "name": "Onion Uttapam", "price": 140 },
-        { "name": "Tomato Uttapam", "price": 140 },
-        { "name": "Veg. Uttapam", "price": 140 },
-        { "name": "Tomato Onion Uttapam", "price": 140 },
-        { "name": "Masala Uttapam", "price": 140 },
-        { "name": "Idli Sambhar / Chatni", "price": 75 },
-        { "name": "Extra Sambhar", "price": 50 }
+        {
+          "name": "Masala Dosa",
+          "price": 110,
+          "name_gu": "મસાલા ઢોસા"
+        },
+        {
+          "name": "Sada Dosa",
+          "price": 50,
+          "name_gu": "સાદા ઢોસા"
+        },
+        {
+          "name": "Rava Special Dosa",
+          "price": 200,
+          "name_gu": "રવા સ્પેશિયલ ઢોસા"
+        },
+        {
+          "name": "Rava Masala Dosa",
+          "price": 140,
+          "name_gu": "રવા મસાલા ઢોસા"
+        },
+        {
+          "name": "Rava Sada Dosa",
+          "price": 120,
+          "name_gu": "રવા સાદા ઢોસા"
+        },
+        {
+          "name": "Mysore Masala Dosa",
+          "price": 140,
+          "name_gu": "મૈસૂર મસાલા ઢોસા"
+        },
+        {
+          "name": "Paper Masala Dosa",
+          "price": 240,
+          "name_gu": "પેપર મસાલા ઢોસા"
+        },
+        {
+          "name": "Rava Onion Masala",
+          "price": 160,
+          "name_gu": "રવા ઓનિયન મસાલા"
+        },
+        {
+          "name": "Uttapam Plain",
+          "price": 70,
+          "name_gu": "પ્લેન ઉત્તપમ"
+        },
+        {
+          "name": "Onion Uttapam",
+          "price": 140,
+          "name_gu": "ઓનિયન (ડુંગળી) ઉત્તપમ"
+        },
+        {
+          "name": "Tomato Uttapam",
+          "price": 140,
+          "name_gu": "ટોમેટો ઉત્તપમ"
+        },
+        {
+          "name": "Veg. Uttapam",
+          "price": 140,
+          "name_gu": "વેજ. ઉત્તપમ"
+        },
+        {
+          "name": "Tomato Onion Uttapam",
+          "price": 140,
+          "name_gu": "ટોમેટો ઓનિયન ઉત્તપમ"
+        },
+        {
+          "name": "Masala Uttapam",
+          "price": 140,
+          "name_gu": "મસાલા ઉત્તપમ"
+        },
+        {
+          "name": "Idli Sambhar / Chatni",
+          "price": 75,
+          "name_gu": "ઈડલી સંભાર / ચટણી"
+        },
+        {
+          "name": "Extra Sambhar",
+          "price": 50,
+          "name_gu": "એક્સ્ટ્રા સંભાર"
+        }
       ]
     },
     {
@@ -249,22 +729,86 @@
       "group": "South Indian",
       "group_gu": "સાઉથ ઈન્ડિયન",
       "items": [
-        { "name": "J.D. Sp. Dosa", "price": 210 },
-        { "name": "Spring Dosa", "price": 190 },
-        { "name": "Gotala Dosa", "price": 210 },
-        { "name": "Sweet Corn Dosa", "price": 210 },
-        { "name": "Palak Paneer Dosa", "price": 210 },
-        { "name": "Cheese Palak Dosa", "price": 250 },
-        { "name": "Baby Cheese Dosa", "price": 120 },
-        { "name": "Jinni Roll", "price": 220 },
-        { "name": "Manchurian Dosa", "price": 200 },
-        { "name": "Noodles Dosa", "price": 200 },
-        { "name": "Cheese Mysore Dosa", "price": 240 },
-        { "name": "Cheese Soorma", "price": 240 },
-        { "name": "Paneer Soorma", "price": 200 },
-        { "name": "Mushroom Masala Dosa", "price": 220 },
-        { "name": "Paneer Tukda Dosa", "price": 220 },
-        { "name": "Cheese Palak Paneer Dosa", "price": 240 }
+        {
+          "name": "J.D. Sp. Dosa",
+          "price": 210,
+          "name_gu": "જે.ડી. સ્પેશિયલ ઢોસા"
+        },
+        {
+          "name": "Spring Dosa",
+          "price": 190,
+          "name_gu": "સ્પ્રિંગ ઢોસા"
+        },
+        {
+          "name": "Gotala Dosa",
+          "price": 210,
+          "name_gu": "ગોટાળા ઢોસા"
+        },
+        {
+          "name": "Sweet Corn Dosa",
+          "price": 210,
+          "name_gu": "સ્વીટ કોર્ન ઢોસા"
+        },
+        {
+          "name": "Palak Paneer Dosa",
+          "price": 210,
+          "name_gu": "પાલક પનીર ઢોસા"
+        },
+        {
+          "name": "Cheese Palak Dosa",
+          "price": 250,
+          "name_gu": "ચીઝ પાલક ઢોસા"
+        },
+        {
+          "name": "Baby Cheese Dosa",
+          "price": 120,
+          "name_gu": "બેબી ચીઝ ઢોસા"
+        },
+        {
+          "name": "Jinni Roll",
+          "price": 220,
+          "name_gu": "જીની રોલ"
+        },
+        {
+          "name": "Manchurian Dosa",
+          "price": 200,
+          "name_gu": "મંચુરિયન ઢોસા"
+        },
+        {
+          "name": "Noodles Dosa",
+          "price": 200,
+          "name_gu": "નુડલ્સ ઢોસા"
+        },
+        {
+          "name": "Cheese Mysore Dosa",
+          "price": 240,
+          "name_gu": "ચીઝ મૈસૂર ઢોસા"
+        },
+        {
+          "name": "Cheese Soorma",
+          "price": 240,
+          "name_gu": "ચીઝ સુરમા"
+        },
+        {
+          "name": "Paneer Soorma",
+          "price": 200,
+          "name_gu": "પનીર સુરમા"
+        },
+        {
+          "name": "Mushroom Masala Dosa",
+          "price": 220,
+          "name_gu": "મશરૂમ મસાલા ઢોસા"
+        },
+        {
+          "name": "Paneer Tukda Dosa",
+          "price": 220,
+          "name_gu": "પનીર ટુકડા ઢોસા"
+        },
+        {
+          "name": "Cheese Palak Paneer Dosa",
+          "price": 240,
+          "name_gu": "ચીઝ પાલક પનીર ઢોસા"
+        }
       ]
     },
     {
@@ -276,19 +820,71 @@
       "group": "Chinese & Fast Food",
       "group_gu": "ચાઈનીઝ અને ફાસ્ટ ફૂડ",
       "items": [
-        { "name": "French Fries", "price": 100 },
-        { "name": "Peri Peri French Fries", "price": 110 },
-        { "name": "Cheese French Fries", "price": 130 },
-        { "name": "Bread Butter", "price": 40 },
-        { "name": "Bread Butter Jam", "price": 50 },
-        { "name": "Garlic Bread", "price": 120 },
-        { "name": "Veg Sandwich", "price": 50 },
-        { "name": "Veg Cheese Sandwich", "price": 110 },
-        { "name": "Veg Toast Sandwich", "price": 70 },
-        { "name": "Only Cheese Sandwich", "price": 120 },
-        { "name": "Only Cheese Toast Sandwich", "price": 130 },
-        { "name": "Veg Cheese Toast Sandwich", "price": 120 },
-        { "name": "Masala Cheese Toast Sandwich", "price": 120 }
+        {
+          "name": "French Fries",
+          "price": 100,
+          "name_gu": "ફ્રેન્ચ ફ્રાઈઝ"
+        },
+        {
+          "name": "Peri Peri French Fries",
+          "price": 110,
+          "name_gu": "પેરી પેરી ફ્રેન્ચ ફ્રાઈઝ"
+        },
+        {
+          "name": "Cheese French Fries",
+          "price": 130,
+          "name_gu": "ચીઝ ફ્રેન્ચ ફ્રાઈઝ"
+        },
+        {
+          "name": "Bread Butter",
+          "price": 40,
+          "name_gu": "બ્રેડ બટર"
+        },
+        {
+          "name": "Bread Butter Jam",
+          "price": 50,
+          "name_gu": "બ્રેડ બટર જામ"
+        },
+        {
+          "name": "Garlic Bread",
+          "price": 120,
+          "name_gu": "ગાર્લિક બ્રેડ"
+        },
+        {
+          "name": "Veg Sandwich",
+          "price": 50,
+          "name_gu": "વેજ સેન્ડવીચ"
+        },
+        {
+          "name": "Veg Cheese Sandwich",
+          "price": 110,
+          "name_gu": "વેજ ચીઝ સેન્ડવીચ"
+        },
+        {
+          "name": "Veg Toast Sandwich",
+          "price": 70,
+          "name_gu": "વેજ ટોસ્ટ સેન્ડવીચ"
+        },
+        {
+          "name": "Only Cheese Sandwich",
+          "price": 120,
+          "name_gu": "ઓન્લી ચીઝ સેન્ડવીચ"
+        },
+        {
+          "name": "Only Cheese Toast Sandwich",
+          "price": 130,
+          "name_gu": "ઓન્લી ચીઝ ટોસ્ટ સેન્ડવીચ"
+        },
+        {
+          "name": "Veg Cheese Toast Sandwich",
+          "price": 120,
+          "name_gu": "વેજ ચીઝ ટોસ્ટ સેન્ડવીચ"
+        },
+        {
+          "name": "Masala Cheese Toast Sandwich",
+          "price": 120,
+          "name_gu": "મસાલા ચીઝ ટોસ્ટ સેન્ડવીચ"
+        }
       ]
     },
     {
@@ -300,19 +896,71 @@
       "group": "Chinese & Fast Food",
       "group_gu": "ચાઈનીઝ અને ફાસ્ટ ફૂડ",
       "items": [
-        { "name": "J.D. Special Grill Sandwich", "price": 210 },
-        { "name": "Veg. Grilled Sandwich", "price": 140 },
-        { "name": "Veg. Cheese Grilled Sandwich", "price": 170 },
-        { "name": "Masala Grilled Sandwich", "price": 190 },
-        { "name": "J.D. Special Pizza (6 inch)", "price": 200 },
-        { "name": "Margherita Pizza (6 inch)", "price": 160 },
-        { "name": "Veg Cheese Pizza (6 inch)", "price": 160 },
-        { "name": "Paneer Tikka Pizza (6 inch)", "price": 190 },
-        { "name": "Mushroom Pizza (6 inch)", "price": 210 },
-        { "name": "Only Cheese Pizza (6 inch)", "price": 180 },
-        { "name": "Pineapple Pizza (6 inch)", "price": 160 },
-        { "name": "Brownie with Ice Cream", "price": 160 },
-        { "name": "Hot Sizzling Brownie", "price": 200 }
+        {
+          "name": "J.D. Special Grill Sandwich",
+          "price": 210,
+          "name_gu": "જે.ડી. સ્પેશિયલ ગ્રીલ સેન્ડવીચ"
+        },
+        {
+          "name": "Veg. Grilled Sandwich",
+          "price": 140,
+          "name_gu": "વેજ. ગ્રીલ્ડ સેન્ડવીચ"
+        },
+        {
+          "name": "Veg. Cheese Grilled Sandwich",
+          "price": 170,
+          "name_gu": "વેજ. ચીઝ ગ્રીલ્ડ સેન્ડવીચ"
+        },
+        {
+          "name": "Masala Grilled Sandwich",
+          "price": 190,
+          "name_gu": "મસાલા ગ્રીલ્ડ સેન્ડવીચ"
+        },
+        {
+          "name": "J.D. Special Pizza (6 inch)",
+          "price": 200,
+          "name_gu": "જે.ડી. સ્પેશિયલ પીઝા (૬ ઈંચ)"
+        },
+        {
+          "name": "Margherita Pizza (6 inch)",
+          "price": 160,
+          "name_gu": "માર્ગેરીટા પીઝા (૬ ઈંચ)"
+        },
+        {
+          "name": "Veg Cheese Pizza (6 inch)",
+          "price": 160,
+          "name_gu": "વેજ ચીઝ પીઝા (૬ ઈંચ)"
+        },
+        {
+          "name": "Paneer Tikka Pizza (6 inch)",
+          "price": 190,
+          "name_gu": "પનીર ટીક્કા પીઝા (૬ ઈંચ)"
+        },
+        {
+          "name": "Mushroom Pizza (6 inch)",
+          "price": 210,
+          "name_gu": "મશરૂમ પીઝા (૬ ઈંચ)"
+        },
+        {
+          "name": "Only Cheese Pizza (6 inch)",
+          "price": 180,
+          "name_gu": "ઓન્લી ચીઝ પીઝા (૬ ઈંચ)"
+        },
+        {
+          "name": "Pineapple Pizza (6 inch)",
+          "price": 160,
+          "name_gu": "પાઈનેપલ પીઝા (૬ ઈંચ)"
+        },
+        {
+          "name": "Brownie with Ice Cream",
+          "price": 160,
+          "name_gu": "બ્રાઉની વિથ આઈસ્ક્રીમ"
+        },
+        {
+          "name": "Hot Sizzling Brownie",
+          "price": 200,
+          "name_gu": "હોટ સિઝલિંગ બ્રાઉની"
+        }
       ]
     },
     {
@@ -324,17 +972,61 @@
       "group": "Drinks & Desserts",
       "group_gu": "ડ્રિંક્સ અને ડેઝર્ટ",
       "items": [
-        { "name": "Plain Milk", "price": 25 },
-        { "name": "Fresh Lime Soda", "price": 40 },
-        { "name": "Bottled Water", "price": 22 },
-        { "name": "Soda", "price": 22 },
-        { "name": "Soft Drink (250ml)", "price": 22 },
-        { "name": "Soft Drink (500ml)", "price": 45 },
-        { "name": "Mosambi / Pineapple", "price": 65 },
-        { "name": "Mosambi / Pineapple (w/o ice)", "price": 75 },
-        { "name": "Ganga Jamana", "price": 75 },
-        { "name": "Fresh Lime Juice", "price": 30 },
-        { "name": "Fresh Lime with Ginger", "price": 50 }
+        {
+          "name": "Plain Milk",
+          "price": 25,
+          "name_gu": "સાદું દૂધ"
+        },
+        {
+          "name": "Fresh Lime Soda",
+          "price": 40,
+          "name_gu": "ફ્રેશ લાઈમ સોડા"
+        },
+        {
+          "name": "Bottled Water",
+          "price": 22,
+          "name_gu": "મિનરલ વોટર"
+        },
+        {
+          "name": "Soda",
+          "price": 22,
+          "name_gu": "સોડા"
+        },
+        {
+          "name": "Soft Drink (250ml)",
+          "price": 22,
+          "name_gu": "સોફ્ટ ડ્રિંક (૨૫૦ મિલી)"
+        },
+        {
+          "name": "Soft Drink (500ml)",
+          "price": 45,
+          "name_gu": "સોફ્ટ ડ્રિંક (૫૦૦ મિલી)"
+        },
+        {
+          "name": "Mosambi / Pineapple",
+          "price": 65,
+          "name_gu": "મોસંબી / પાઈનેપલ જ્યુસ"
+        },
+        {
+          "name": "Mosambi / Pineapple (w/o ice)",
+          "price": 75,
+          "name_gu": "મોસંબી / પાઈનેપલ (બરફ વગર)"
+        },
+        {
+          "name": "Ganga Jamana",
+          "price": 75,
+          "name_gu": "ગંગા જમના જ્યુસ"
+        },
+        {
+          "name": "Fresh Lime Juice",
+          "price": 30,
+          "name_gu": "ફ્રેશ લીંબુ જ્યુસ"
+        },
+        {
+          "name": "Fresh Lime with Ginger",
+          "price": 50,
+          "name_gu": "ફ્રેશ લીંબુ આદુ સાથે"
+        }
       ]
     },
     {
@@ -346,22 +1038,86 @@
       "group": "Drinks & Desserts",
       "group_gu": "ડ્રિંક્સ અને ડેઝર્ટ",
       "items": [
-        { "name": "Chikoo Shake", "price": 65 },
-        { "name": "Pineapple Milk Shake", "price": 65 },
-        { "name": "Mango Milk Shake", "price": 80 },
-        { "name": "Chikoo Chocolate", "price": 80 },
-        { "name": "Rose / Strawberry", "price": 60 },
-        { "name": "Cold Coffee", "price": 60 },
-        { "name": "Kaju Anjeer", "price": 135 },
-        { "name": "Kaju Mango", "price": 130 },
-        { "name": "Kaju Draksh", "price": 140 },
-        { "name": "Kaju Chikoo", "price": 110 },
-        { "name": "Kaju Badam", "price": 170 },
-        { "name": "Kaju Chocolate", "price": 170 },
-        { "name": "Dry Fruit", "price": 180 },
-        { "name": "Cold Coco", "price": 70 },
-        { "name": "Kaju Shake", "price": 160 },
-        { "name": "Lassi", "price": 75 }
+        {
+          "name": "Chikoo Shake",
+          "price": 65,
+          "name_gu": "ચીકુ શેક"
+        },
+        {
+          "name": "Pineapple Milk Shake",
+          "price": 65,
+          "name_gu": "પાઈનેપલ મિલ્ક શેક"
+        },
+        {
+          "name": "Mango Milk Shake",
+          "price": 80,
+          "name_gu": "મેંગો (કેરી) મિલ્ક શેક"
+        },
+        {
+          "name": "Chikoo Chocolate",
+          "price": 80,
+          "name_gu": "ચીકુ ચોકલેટ શેક"
+        },
+        {
+          "name": "Rose / Strawberry",
+          "price": 60,
+          "name_gu": "રોઝ / સ્ટ્રોબેરી શેક"
+        },
+        {
+          "name": "Cold Coffee",
+          "price": 60,
+          "name_gu": "કોલ્ડ કોફી"
+        },
+        {
+          "name": "Kaju Anjeer",
+          "price": 135,
+          "name_gu": "કાજુ અંજીર શેક"
+        },
+        {
+          "name": "Kaju Mango",
+          "price": 130,
+          "name_gu": "કાજુ મેંગો શેક"
+        },
+        {
+          "name": "Kaju Draksh",
+          "price": 140,
+          "name_gu": "કાજુ દ્રાક્ષ"
+        },
+        {
+          "name": "Kaju Chikoo",
+          "price": 110,
+          "name_gu": "કાજુ ચીકુ શેક"
+        },
+        {
+          "name": "Kaju Badam",
+          "price": 170,
+          "name_gu": "કાજુ બદામ શેક"
+        },
+        {
+          "name": "Kaju Chocolate",
+          "price": 170,
+          "name_gu": "કાજુ ચોકલેટ શેક"
+        },
+        {
+          "name": "Dry Fruit",
+          "price": 180,
+          "name_gu": "ડ્રાય ફ્રૂટ શેક"
+        },
+        {
+          "name": "Cold Coco",
+          "price": 70,
+          "name_gu": "કોલ્ડ કોકો (સુરતી સ્પેશિયલ)"
+        },
+        {
+          "name": "Kaju Shake",
+          "price": 160,
+          "name_gu": "કાજુ શેક"
+        },
+        {
+          "name": "Lassi",
+          "price": 75,
+          "name_gu": "લસ્સી"
+        }
       ]
     },
     {
@@ -373,15 +1129,51 @@
       "group": "Drinks & Desserts",
       "group_gu": "ડ્રિંક્સ અને ડેઝર્ટ",
       "items": [
-        { "name": "Vanilla Big", "price": 25 },
-        { "name": "Butter Scotch", "price": 32 },
-        { "name": "Kesar Pista", "price": 42 },
-        { "name": "Raj Bhog", "price": 53 },
-        { "name": "Butter Scotch (2nd listing)", "price": 32 },
-        { "name": "Kaju Draksh", "price": 35 },
-        { "name": "Butter Scotch Cone", "price": 22 },
-        { "name": "Chocobar", "price": 22 },
-        { "name": "Classic Cassatta", "price": 65 }
+        {
+          "name": "Vanilla Big",
+          "price": 25,
+          "name_gu": "વેનીલા (મોટું)"
+        },
+        {
+          "name": "Butter Scotch",
+          "price": 32,
+          "name_gu": "બટર સ્કોચ"
+        },
+        {
+          "name": "Kesar Pista",
+          "price": 42,
+          "name_gu": "કેસર પિસ્તા"
+        },
+        {
+          "name": "Raj Bhog",
+          "price": 53,
+          "name_gu": "રાજ ભોગ"
+        },
+        {
+          "name": "Butter Scotch (2nd listing)",
+          "price": 32,
+          "name_gu": "બટર સ્કોચ (સ્પેશિયલ)"
+        },
+        {
+          "name": "Kaju Draksh",
+          "price": 35,
+          "name_gu": "કાજુ દ્રાક્ષ"
+        },
+        {
+          "name": "Butter Scotch Cone",
+          "price": 22,
+          "name_gu": "બટર સ્કોચ કોન"
+        },
+        {
+          "name": "Chocobar",
+          "price": 22,
+          "name_gu": "ચોકોબાર"
+        },
+        {
+          "name": "Classic Cassatta",
+          "price": 65,
+          "name_gu": "ક્લાસિક કસાટા"
+        }
       ]
     },
     {
@@ -397,12 +1189,16 @@
         {
           "name": "Sp. Punjabi Dishes",
           "price": 325,
-          "description": "Soup (choice of any one) / Welcome Drink, Paneer (one), Kaju Curry (one), Dal Fry / Dal Tadka, Jira Rice / Pulav, Parotha / Roti / Chapati, Papad, Salad, Ice Cream (limited). All inclusive. For sweet extra Rs. 35/-"
+          "description": "Soup (choice of any one) / Welcome Drink, Paneer (one), Kaju Curry (one), Dal Fry / Dal Tadka, Jira Rice / Pulav, Parotha / Roti / Chapati, Papad, Salad, Ice Cream (limited). All inclusive. For sweet extra Rs. 35/-",
+          "name_gu": "સ્પેશિયલ પંજાબી ડિશ",
+          "description_gu": "સૂપ (કોઈપણ એક) / વેલકમ ડ્રિંક, પનીર શાક (એક), કાજુ કરી (એક), દાલ ફ્રાય / દાલ તડકા, જીરા રાઈસ / પુલાવ, પરોઠા / રોટી / ચપાતી, પાપડ, સલાડ, આઈસ્ક્રીમ (મર્યાદિત). સર્વ સમાવિષ્ટ. મીઠાઈ માટે અલગથી રૂ. ૩૫/-"
         },
         {
           "name": "Sp. Gujarati Thali",
           "price": 225,
-          "description": "Sweet, Gujarati Vegetable + Punjabi Veg, Puri / Chapati, 1 Farsan + Chatni (Fry / Boiled), Dal - Rice / Kadhi - Pulav, Butter Milk, Papad, Kachumber Salad. All inclusive."
+          "description": "Sweet, Gujarati Vegetable + Punjabi Veg, Puri / Chapati, 1 Farsan + Chatni (Fry / Boiled), Dal - Rice / Kadhi - Pulav, Butter Milk, Papad, Kachumber Salad. All inclusive.",
+          "name_gu": "સ્પેશિયલ ગુજરાતી થાળી",
+          "description_gu": "મિષ્ઠાન, ગુજરાતી શાક + પંજાબી શાક, પૂરી / ચપાતી, ૧ ફરસાણ + ચટણી (તળેલું / બાફેલું), દાળ - ભાત / કઢી - પુલાવ, છાશ, પાપડ, કચુંબર સલાડ. સર્વ સમાવિષ્ટ."
         }
       ]
     }

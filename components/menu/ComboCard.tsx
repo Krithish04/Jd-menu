@@ -15,8 +15,10 @@ export default function ComboCard({ item, language }: Props) {
     item.nameEn.toLowerCase().includes("gujarati") ||
     (item.nameGu && item.nameGu.includes("ગુજરાતી"));
   const name = language === "gu" && item.nameGu ? item.nameGu : item.nameEn;
-  const dishes = item.description
-    ? item.description
+  const descriptionText =
+    language === "gu" && item.descriptionGu ? item.descriptionGu : item.description;
+  const dishes = descriptionText
+    ? descriptionText
         .split(/[,/]/)
         .map((d) => d.trim())
         .filter(Boolean)

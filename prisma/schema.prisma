@@ -1,0 +1,90 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Restaurant {
+  id                String   @id @default("default")
+  name              String
+  tagline           String?
+  address           String?
+  phone             String?
+  mobile            String?
+  banner            String?
+  siteUrl           String?
+  logoUrl           String?
+  showBothLanguages Boolean  @default(false)
+  metaDescription   String?
+  openingHours      String?  // JSON string
+  geoLat            Float?
+  geoLng            Float?
+  mapsUrl           String?
+  fssaiNo           String?
+  priceRange        String?  // e.g. "INR INR"
+  sameAs            String?  // JSON list of profile URLs
+  notices           Notice[]
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}
+
+model Notice {
+  id           String     @id @default(cuid())
+  restaurantId String
+  restaurant   Restaurant @relation(fields: [restaurantId], references: [id], onDelete: Cascade)
+  textEn       String
+  textGu       String?
+  sort         Int        @default(0)
+}
+
+model Category {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  nameEn      String
+  nameGu      String?
+  shortNameEn String?
+  shortNameGu String?
+  groupEn     String?
+  groupGu     String?
+  note        String?
+  noteGu      String?
+  kind        String   @default("list")
+  iconKey     String?
+  sort        Int      @default(0)
+  visible     Boolean  @default(true)
+  items       Item[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Item {
+  id            String   @id @default(cuid())
+  categoryId    String
+  category      Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  nameEn        String
+  nameGu        String?
+  description   String?
+  descriptionGu String?
+  price         Int
+  imageUrl      String?
+  badge         String?  // "SPECIAL" | "POPULAR" | "NEW"
+  isVeg         Boolean  @default(true)
+  sort          Int      @default(0)
+  available     Boolean  @default(true)
+  visible       Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  action    String   // "CREATE" | "UPDATE" | "DELETE" | "REORDER" | "SETTINGS"
+  entity    String   // "Category" | "Item" | "Restaurant"
+  entityId  String
+  before    String?  // JSON string
+  after     String?  // JSON string
+  createdAt DateTime @default(now())
+}

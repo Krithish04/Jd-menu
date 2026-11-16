@@ -1,0 +1,36 @@
+export type Language = "en" | "gu";
+
+export const translations = {
+  en: {
+    welcome: "Welcome",
+    enjoyTheTaste: "Enjoy the Taste",
+    tapToOpen: "Tap to Open Menu",
+    pureVeg: "Pure Veg.",
+    searchPlaceholder: "Search dishes (e.g. Paneer, Dosa)...",
+    typeToSearch: "Type dish name to search…",
+    noItemsFound: 'No items found for "{query}"',
+    prev: "Prev",
+    next: "Next",
+    soldOut: "Sold",
+    pleaseNote: "Important Notices",
+    gstAndParcel: "5% GST and Parcel charges are extra.",
+    qualityPromise: "Quality Promise",
+    information: "Restaurant Information",
+  },
+  gu: {
+    welcome: "આવકાર",
+    enjoyTheTaste: "સ્વાદનો આનંદ માણો",
+    tapToOpen: "મેનુ ખોલવા માટે ટેપ કરો",
+    pureVeg: "શુદ્ધ શાકાહારી",
+    searchPlaceholder: "વાનગી શોધો (દા.ત. પનીર, ઢોસા)...",
+    typeToSearch: "શોધવા માટે લખો…",
+    noItemsFound: '"{query}" માટે કોઈ વાનગી મળી નથી',
+    prev: "પાછળ",
+    next: "આગળ",
+    soldOut: "ખતમ",
+    pleaseNote: "મહત્વપૂર્ણ સૂચનાઓ",
+    gstAndParcel: "૫% જીએસટી તથા પાર્સલ ચાર્જ અલગથી રહેશે.",
+    qualityPromise: "ગુણવત્તાની ખાતરી",
+    information: "રેસ્ટોરન્ટ માહિતી",
+  },
+};

@@ -11,9 +11,6 @@ type Props = {
 };
 
 export default function ComboCard({ item, language }: Props) {
-  const isGujarati =
-    item.nameEn.toLowerCase().includes("gujarati") ||
-    (item.nameGu && item.nameGu.includes("ગુજરાતી"));
   const name = language === "gu" && item.nameGu ? item.nameGu : item.nameEn;
   const descriptionText =
     language === "gu" && item.descriptionGu ? item.descriptionGu : item.description;
@@ -45,69 +42,6 @@ export default function ComboCard({ item, language }: Props) {
 
       {/* Dishes content */}
       <div className="p-3 bg-gradient-to-b from-white to-brand-cream/30">
-        {isGujarati && (
-          <div className="flex items-center justify-center my-1 opacity-80">
-            {/* Thali plate illustration */}
-            <svg width="46" height="46" viewBox="0 0 32 32" fill="none">
-              <circle cx="16" cy="16" r="14" stroke="#1B6B3A" strokeWidth="1.5" />
-              <circle
-                cx="11"
-                cy="11"
-                r="2.5"
-                stroke="#8E1B22"
-                strokeWidth="1"
-                fill="#8E1B22"
-                fillOpacity="0.2"
-              />
-              <circle
-                cx="21"
-                cy="11"
-                r="2.5"
-                stroke="#8E1B22"
-                strokeWidth="1"
-                fill="#8E1B22"
-                fillOpacity="0.2"
-              />
-              <circle
-                cx="8.5"
-                cy="18"
-                r="2.5"
-                stroke="#8E1B22"
-                strokeWidth="1"
-                fill="#8E1B22"
-                fillOpacity="0.2"
-              />
-              <circle
-                cx="23.5"
-                cy="18"
-                r="2.5"
-                stroke="#8E1B22"
-                strokeWidth="1"
-                fill="#8E1B22"
-                fillOpacity="0.2"
-              />
-              <circle
-                cx="16"
-                cy="22"
-                r="2.5"
-                stroke="#8E1B22"
-                strokeWidth="1"
-                fill="#8E1B22"
-                fillOpacity="0.2"
-              />
-              <circle
-                cx="16"
-                cy="15"
-                r="3"
-                stroke="#1B6B3A"
-                strokeWidth="1"
-                fill="#1B6B3A"
-                fillOpacity="0.1"
-              />
-            </svg>
-          </div>
-        )}
-
         <div className="grid grid-cols-1 gap-1 text-[11px] text-brand-text">
           {dishes.map((dish, i) => (
             <div key={i} className="flex items-start gap-1.5">

@@ -1,6 +1,8 @@
 import prisma from "@/lib/db";
 import AdminMenuClient from "@/components/admin/AdminMenuClient";
 
+export const dynamic = "force-dynamic";
+
 export default async function AdminMenuPage() {
   const categories = await prisma.category.findMany({
     orderBy: { sort: "asc" },

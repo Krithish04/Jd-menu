@@ -3,7 +3,6 @@
 .env*.local
 node_modules/
 .next/
-prisma/dev.db
 prisma/dev.db-journal
 out/
 *.tsbuildinfo

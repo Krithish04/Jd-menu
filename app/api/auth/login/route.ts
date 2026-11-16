@@ -4,6 +4,8 @@ import { createSession } from "@/lib/auth";
 import { redisGet, redisSet, redisIncr, redisDel } from "@/lib/redis";
 import bcrypt from "bcryptjs";
 
+export const dynamic = "force-dynamic";
+
 const MAX_ATTEMPTS = 5;
 const WINDOW_SECONDS = 10 * 60; // 10 minutes
 const LOCKOUT_SECONDS = 15 * 60; // 15 minutes initial lockout

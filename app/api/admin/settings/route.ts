@@ -3,6 +3,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { revalidateTag } from "next/cache";
 import { settingsSchema } from "@/lib/schemas";
 
+export const dynamic = "force-dynamic";
+
 export async function GET() {
   const restaurant = await prisma.restaurant.findUnique({
     where: { id: "default" },

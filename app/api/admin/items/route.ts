@@ -3,6 +3,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { revalidateTag } from "next/cache";
 import { itemSchema } from "@/lib/schemas";
 
+export const dynamic = "force-dynamic";
+
 export async function POST(req: NextRequest) {
   const body = await req.json();
   const result = itemSchema.safeParse(body);

@@ -3,6 +3,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { revalidateTag } from "next/cache";
 import { categorySchema } from "@/lib/schemas";
 
+export const dynamic = "force-dynamic";
+
 export async function GET() {
   const categories = await prisma.category.findMany({
     orderBy: { sort: "asc" },
